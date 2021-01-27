@@ -2,8 +2,8 @@ public class Driver {
     public static void main(String[] args) {
 
         Operator operator = givenOperator();
-        Car operatorCar = givenCar(operator);
-        Bike operatorBike = givenBike(operator);
+        Vehicle operatorCar = givenCar(operator);
+        Vehicle operatorBike = givenBike(operator);
 
         operatorBike.run();
         operatorCar.run();

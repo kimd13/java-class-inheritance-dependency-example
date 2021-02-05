@@ -35,6 +35,10 @@ public abstract class Vehicle implements Permitted {
 
     abstract void run();
 
+    private void backgroundCheck(Operator operator){
+        System.out.println("Checking records...");
+    }
+
     enum Usage {
         DOMESTIC, COMMERCIAL
     }
